@@ -1,1 +1,1 @@
-# Peluquer-a-Catherine
+# Peluqueria-Catherine
