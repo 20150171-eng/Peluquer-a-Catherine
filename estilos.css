@@ -1,245 +1,107 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+/* Estilo general */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffdee2;
+    color: #0f0f0f;
 }
 
-body{
+/* Encabezado */
 
-font-family:'Poppins',sans-serif;
-
-background:#fff7fb;
-
-color:#444;
-
+header {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
 }
 
-header{
+/* Banner */
 
-text-align:center;
-
-padding:30px;
-
-background:linear-gradient(135deg,#f8d3e3,#ffffff);
-
+.banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-h1{
+/* Títulos */
 
-font-family:'Playfair Display',serif;
-
-font-size:55px;
-
-color:#a64d79;
-
-margin-bottom:20px;
-
+h1 {
+    color: DEA193;
+    font-size: 40px;
 }
 
-.banner{
-
-width:90%;
-
-max-width:1100px;
-
-border-radius:20px;
-
-box-shadow:0 10px 25px rgba(0,0,0,.2);
-
+h2 {
+    color: #2e7d32;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.descripcion{
+/* Secciones */
 
-max-width:900px;
-
-margin:auto;
-
-margin-top:25px;
-
-font-size:18px;
-
-line-height:30px;
-
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-nav{
+/* Productos en columnas */
 
-background:#a64d79;
-
-padding:18px;
-
-text-align:center;
-
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-nav a{
+/* Tarjetas */
 
-color:white;
-
-text-decoration:none;
-
-margin:25px;
-
-font-size:18px;
-
-font-weight:bold;
-
-transition:.3s;
-
+.tarjeta {
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
 }
 
-nav a:hover{
-
-color:#ffd6e8;
-
+.tarjeta:hover {
+    transform: translateY(-5px);
 }
 
-.contenido{
+/* Imágenes de productos */
 
-padding:60px;
-
-text-align:center;
-
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
 
-.contenido h2{
+/* Contenido tarjeta */
 
-font-family:'Playfair Display',serif;
-
-font-size:40px;
-
-margin-bottom:30px;
-
-color:#a64d79;
-
+.tarjeta h3 {
+    margin: 15px;
+    color: #2e7d32;
 }
 
-.productos{
-
-display:flex;
-
-justify-content:center;
-
-gap:35px;
-
-flex-wrap:wrap;
-
+.tarjeta p {
+    margin: 15px;
+    text-align: justify;
 }
 
-.tarjeta{
+/* Contacto */
 
-background:white;
-
-width:280px;
-
-border-radius:20px;
-
-overflow:hidden;
-
-box-shadow:0 8px 25px rgba(0,0,0,.15);
-
-transition:.4s;
-
+.contacto {
+    text-align: center;
 }
 
-.tarjeta:hover{
+/* Pie de página */
 
-transform:translateY(-10px);
-
-}
-
-.tarjeta img{
-
-width:100%;
-
-height:220px;
-
-object-fit:cover;
-
-}
-
-.tarjeta h3{
-
-margin:15px;
-
-color:#a64d79;
-
-}
-
-.tarjeta p{
-
-padding:0 20px 20px;
-
-}
-
-.beneficios{
-
-display:flex;
-
-justify-content:center;
-
-gap:30px;
-
-flex-wrap:wrap;
-
-}
-
-.beneficios div{
-
-background:white;
-
-padding:25px;
-
-width:300px;
-
-border-radius:15px;
-
-box-shadow:0 5px 20px rgba(0,0,0,.1);
-
-}
-
-.contacto{
-
-background:#ffe9f3;
-
-}
-
-button{
-
-margin-top:20px;
-
-padding:15px 35px;
-
-background:#a64d79;
-
-color:white;
-
-border:none;
-
-border-radius:30px;
-
-font-size:17px;
-
-cursor:pointer;
-
-transition:.3s;
-
-}
-
-button:hover{
-
-background:#87365f;
-
-}
-
-footer{
-
-background:#a64d79;
-
-color:white;
-
-text-align:center;
-
-padding:20px;
-
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
